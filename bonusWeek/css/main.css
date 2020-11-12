@@ -96,7 +96,7 @@ box-shadow: 1px 4px 10px rgba(82, 20, 197, 0.5);
 background: #4609b6;
 }
 .btn-delete {
-    padding: 0;
+    padding: 0 10px;
     font-weight: 700;
     width: 30px;
     background: #f52727;
@@ -126,3 +126,4 @@ form {
 .list-item p {
     margin: 5px;
 }
+
