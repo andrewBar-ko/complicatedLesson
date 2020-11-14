@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Less18 2</title>
+    <style>
+        body {
+            position: relative;
+            height: 100vh;
+            background: url(cloud2.jpg) no-repeat  top center / cover;
+        }
+        .plane {
+            position: absolute;
+        }
+        .plane img {
+            max-width: 350px;
+        }
+        .control {
+            max-width: 130px;
+            position: absolute;
+            left: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="plane">
+        <img src="./plane.png" alt="Plane">
+    </div>
+    <div class="control">
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
